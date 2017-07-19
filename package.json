@@ -1,0 +1,33 @@
+{
+  "name": "feat-flag-loader",
+  "version": "1.0.0",
+  "description": "feature flag loader module for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekoneko/feature-flag-loader.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ekoneko/feature-flag-loader/issues"
+  },
+  "homepage": "https://github.com/ekoneko/feature-flag-loader#readme",
+  "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "feat-flag": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "mocha": "^3.2.0",
+    "raw-loader": "^0.5.1",
+    "webpack": "^3.3.0"
+  }
+}
